@@ -55,7 +55,7 @@ aaron:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
 
 ben:
   id: 2
@@ -79,7 +79,7 @@ ben:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
 
 cindy:
   id: 3
@@ -103,7 +103,7 @@ cindy:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
 
 dan:
   id: 4
@@ -127,7 +127,7 @@ dan:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
 
 elizabeth:
   id: 5
@@ -151,7 +151,7 @@ elizabeth:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
 
 frank:
   id: 6
@@ -175,7 +175,7 @@ frank:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
 
 george:
   id: 7
@@ -199,7 +199,7 @@ george:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
 
 heather:
   id: 8
@@ -223,4 +223,4 @@ heather:
   deleted_at:
   created_at: <%= login - rand(5).days %>
   updated_at: <%= login + rand(5).days %>
-  confirmed_at: <%= Time.now.utc %>
+  confirmed_at: <%=Time.zone.now %>
